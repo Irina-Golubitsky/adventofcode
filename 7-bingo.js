@@ -47,9 +47,8 @@ while  ((iset<myset.length)&&(!bingo)){
                         if (element[i][j]<100){sum=sum +element[i][j]}
                     }
                 }
-                 bingo=true; break}
+                 bingo=true;}
         }
-        if (bingo) break;
     }
     iset=iset+1;
     }    
